@@ -15,6 +15,36 @@ class UsuarioSeeder extends Seeder
     {
         // Crear usuario bibliotecario por defecto
         Usuario::create([
+            'nombres' => 'Max',
+            'apellidos' => 'Rodas',
+            'correo' => 'max@gmail.com',
+            'password' => bcrypt('luca'),
+            'rol' => 'bibliotecario',
+            'telefono' => '0000',
+            'direccion' => 'Oficina Central',
+            'estado' => 'activo'
+        ]);
+        Usuario::create([
+            'nombres' => 'Antezana',
+            'apellidos' => 'Antezana',
+            'correo' => 'antezana@gmail.com',
+            'password' => bcrypt('luca'),
+            'rol' => 'bibliotecario',
+            'telefono' => '0000',
+            'direccion' => 'Oficina Central',
+            'estado' => 'activo'
+        ]);
+        Usuario::create([
+            'nombres' => 'Susi',
+            'apellidos' => 'Manjon',
+            'correo' => 'susi@gmail.com',
+            'password' => bcrypt('luca'),
+            'rol' => 'bibliotecario',
+            'telefono' => '0000',
+            'direccion' => 'Oficina Central',
+            'estado' => 'activo'
+        ]);
+        Usuario::create([
             'nombres' => 'Luca',
             'apellidos' => 'Bracci',
             'correo' => 'luca@gmail.com',

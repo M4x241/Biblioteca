@@ -67,7 +67,13 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 3. `php artisan key:generate`
 4. `php artisan migrate`
 5. `php artisan db:seed`
+### ADICIONAL:
+6. `php artisan migrate:fresh --seed`
 
 # DEPENDENCIAS DE NODE:
 1. `npm install`
 
+## EJECUCION DEL PROYECTO
+En dos terminales ejecutar
+1. `npm run dev` 
+2. `php artisan serve`
